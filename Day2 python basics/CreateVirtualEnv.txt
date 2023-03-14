@@ -1,0 +1,9 @@
+strp 1: To create env
+python -m venv myenv
+
+Step 2: to move inside virtual env
+ .\myenv\Scripts\activate
+
+
+step 3: to exit
+exit()

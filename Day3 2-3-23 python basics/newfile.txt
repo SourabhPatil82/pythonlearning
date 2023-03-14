@@ -1,0 +1,1 @@
+Writing to a fileappending a content.....appending a content.....no need to use close

@@ -1,0 +1,10 @@
+ python -m venv myenv
+.\myappenv\Scripts\activate 
+
+ pip install fastapi
+
+
+pip install -r requirements.txt
+
+
+https://inloop.github.io/sqlite-viewer/

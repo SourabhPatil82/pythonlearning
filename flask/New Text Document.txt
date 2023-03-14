@@ -1,0 +1,28 @@
+step1:
+
+pip install --user virtualenv
+python -m virtualenv env 
+
+step2 :
+
+ .\env\Scripts\activate.ps1
+
+step3:
+
+pip install flask
+
+--------------------------------------------
+Endpoints:
+http://localhost:8000/static/myfile.txt
+-------------------------------------------
+To create database table :
+create class
+>python
+>from app import db
+>db.create_all()
+>exit()
+if got error add in code:
+app.app_context().push()
+-------------------------
+
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/

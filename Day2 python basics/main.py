@@ -1,0 +1,3 @@
+import myfile
+
+myfile.welcome()
